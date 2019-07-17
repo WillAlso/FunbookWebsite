@@ -3,5 +3,6 @@
 <body>
 <h2>Hello World!</h2>
 </body>
-    <a href="/funbook/findAllUser.do">查询</a>
+    <a href="/pages/login/login.jsp">登录</a>
+
 </html>
