@@ -50,12 +50,12 @@
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/common.css" />
-    <link rel="stylesheet" type="text/css" href="css/slide.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/flat-ui.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.nouislider.css">
+    <link href="${pageContext.request.contextPath}/pages/manage/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/css/slide.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/flat-ui.min.css" />
+    <link rel="tylesheet" type="text/css" href="/css/jquery.nouislider.css">
 </head>
 
 <body>
