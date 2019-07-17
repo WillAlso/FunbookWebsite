@@ -22,7 +22,7 @@ public class UserController {
         for(UserInfo u:userInfos) {
             System.out.println(u.getUsername());
         }
-        mv.setViewName("../login.jsp");
+        mv.setViewName("userlist");
         return null;
     }
 }
