@@ -16,13 +16,11 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("/findAllUser.do")
-    public ModelAndView findAllUser() {
+    public String findAllUser() {
         List<UserInfo> userInfos = userService.findAllUser();
-        ModelAndView mv = new ModelAndView();
         for(UserInfo u:userInfos) {
             System.out.println(u.getUsername());
         }
-        mv.setViewName("userlist");
-        return null;
+        return "/manage/manage";
     }
 }
